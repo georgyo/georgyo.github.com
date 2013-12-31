@@ -5,6 +5,7 @@
     {% if page.wordpress_id %}var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';
     {% else %}var disqus_identifier = '{{page.id}}';{% endif %}
     var disqus_url = '{{site.production_url}}{{page.id}}';
+    var disqus_title = '{{page.title}}';
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
