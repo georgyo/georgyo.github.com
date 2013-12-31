@@ -1,3 +1,7 @@
+---
+# Remember to set production_url in your _config.yml file!
+title : Robots
+---
 User-agent: *
 Disallow: /
 Sitemap: /sitemap.txt
